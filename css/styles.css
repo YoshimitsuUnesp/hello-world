@@ -8,9 +8,16 @@
     flex-wrap: nowrap;
     /* wrap | wrap-reverse */
 
-    flex-flow: row wrap-reverse;
+    flex-flow: row nowrap;
 
     justify-content: flex-start;
+    /* flex-end | center | space-between | scape-around */
+
+    align-items: stretch;
+    /* flex-start | flex-end | center | baseline */
+
+    align-content: stretch;
+    /* flex-start | flex-end | space-between | space-around */
 }
 
 .item{
@@ -20,3 +27,8 @@
     margin: 5px;
     width: 30px;
 }
+/* 
+.article-01{
+    padding-top: 40px;
+    background-color: red;
+} */
