@@ -168,6 +168,7 @@ header li:last-child {
 
 /* Caracteristicas */
 .caracteristicas{
+  background-color:#191c03;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,20 +179,29 @@ header li:last-child {
  font-size: 2rem;
  margin-bottom: 35px;
  text-align: center;
- color: #191c03;
+ color: #fff;
 }
 
 .caracteristicas p{
  max-width: 800px;
  margin-bottom: 35px;
  text-align: center;
- color: #191c03;
+ color: #fff;
 }
 
 .caracteristicas hr{
  width: 200px;
  height: 2px;
- background-color: #191c03;
+ background-color: #fff;
  margin-bottom: 70px;
  border: none;
+}
+
+.caracteristicas .grid{
+  width: 100%;
+  display: flex;
+}
+
+.caracteristicas .grid li{
+  
 }
